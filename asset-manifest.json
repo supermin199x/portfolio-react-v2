@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/react2022/static/css/main.1c11178a.css",
+    "main.js": "/react2022/static/js/main.18d96fd0.js",
+    "index.html": "/react2022/index.html",
+    "main.1c11178a.css.map": "/react2022/static/css/main.1c11178a.css.map",
+    "main.18d96fd0.js.map": "/react2022/static/js/main.18d96fd0.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1c11178a.css",
+    "static/js/main.18d96fd0.js"
+  ]
+}
