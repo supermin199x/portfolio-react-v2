@@ -1,13 +1,20 @@
 {
   "files": {
-    "main.css": "/react2022/static/css/main.ac90858c.css",
-    "main.js": "/react2022/static/js/main.2f2b0695.js",
+    "main.css": "/react2022/static/css/main.d3ab2e88.css",
+    "main.js": "/react2022/static/js/main.8234bd36.js",
+    "static/media/php.jpg": "/react2022/static/media/php.79bc19a2e2e45a2b2053.jpg",
+    "static/media/js.jpg": "/react2022/static/media/js.f879e334b95d47f3ce9a.jpg",
+    "static/media/mssql.jpg": "/react2022/static/media/mssql.6736f41000ca223623a6.jpg",
+    "static/media/css.jpg": "/react2022/static/media/css.dfe310d9c5b152d4cc8e.jpg",
+    "static/media/mysql.jpg": "/react2022/static/media/mysql.6e5e89cd86504e7724a3.jpg",
+    "static/media/react.jpg": "/react2022/static/media/react.cf7b6bd11cab94294c3e.jpg",
+    "static/media/html.jpg": "/react2022/static/media/html.1873ffa76cbbe3e8a02f.jpg",
     "index.html": "/react2022/index.html",
-    "main.ac90858c.css.map": "/react2022/static/css/main.ac90858c.css.map",
-    "main.2f2b0695.js.map": "/react2022/static/js/main.2f2b0695.js.map"
+    "main.d3ab2e88.css.map": "/react2022/static/css/main.d3ab2e88.css.map",
+    "main.8234bd36.js.map": "/react2022/static/js/main.8234bd36.js.map"
   },
   "entrypoints": [
-    "static/css/main.ac90858c.css",
-    "static/js/main.2f2b0695.js"
+    "static/css/main.d3ab2e88.css",
+    "static/js/main.8234bd36.js"
   ]
 }
