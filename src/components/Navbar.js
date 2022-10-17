@@ -3,6 +3,18 @@ import '../css/Navbar.css'
 import { Outlet, Link } from "react-router-dom";
 
 export function Navbar(){
+    var menuHam     = document.getElementById('menu-ham');
+    var modalHam    = document.getElementById('modal-ham');
+    var liclick     = document.getElementsByTagName('li');
+    
+    function showModal(){
+        modalHam.style.display = "flex";
+    }
+
+    function closeModal(){
+        modalHam.style.display = "none";
+    }
+
     return(
         <div className="navbar">
             <ul className="nav-link">
@@ -23,23 +35,23 @@ export function Navbar(){
                 </li>
             </ul>
             <Outlet />
-            <p className="menu-hamberger">
+            <p onClick={()=>{showModal()}} id="menu-ham" className="menu-hamberger">
                 <p className="line-hamberger"></p>
                 <p className="line-hamberger"></p>
                 <p className="line-hamberger"></p>
             </p>
-            <div className="hamberger">
+            <div id="modal-ham" className="hamberger">
                 <ul className="ham-link">
-                    <li>
+                    <li onClick={()=>{closeModal()}}>
                         <Link className="ham-item active" to="/">Profile</Link>
                     </li>
-                    <li>
+                    <li onClick={()=>{closeModal()}}>
                         <Link className="ham-item" to="/Skills">Skills</Link>
                     </li>
-                    <li>
+                    <li onClick={()=>{closeModal()}}>
                         <Link className="ham-item" to="/Projects">Projects</Link>
                     </li>
-                    <li>
+                    <li onClick={()=>{closeModal()}}>
                         <Link className="ham-item" to="/Contacts">Contacts</Link>
                     </li>
                 </ul>
