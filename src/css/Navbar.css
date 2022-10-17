@@ -42,7 +42,10 @@
   .active {
     background-color: #F3F4F6;
   }
-  @media only screen and (max-width: 768px){
+  @media only screen and (max-width: 767px){
+    .navbar {
+      position: relative;
+    }
     .nav-item {
       display: none;
     }
@@ -64,8 +67,28 @@
       color: #374151;
       cursor: pointer;
     }
-    @media only screen and (max-width: 500px){
-
+    .hamberger {
+      position: absolute;
+      top: 35px;
+      left: 10px;
+      width: 200px;
+      height: 200px;
+      box-shadow: 0px 0px 3px black;
+      background-color: white;
+    }
+    .menu-hamberger {
+      position: absolute;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      top: 10px;
+      left: 10px;
+      width: 20px;
+      height: 20px;
+      cursor: pointer;
+    }
+    .line-hamberger {
+      border: solid 2px black;
     }
   }
   
