@@ -2,19 +2,8 @@ import React from "react";
 import '../css/Posts.css';
 
 export function Posts(){
-
-    
-
     return(
-        <div className="post">
-            <div className="box">
-                <div className="post-img">
-                    <img className="post-logo"  src={ require('../images/html.jpg') }  alt="" />
-                </div>
-                <div className="post-detail">
-                    <p>HTML</p>
-                </div>
-            </div>
+        <div className="post-container">
             <div className="box">
                 <div className="post-img">
                     <img className="post-logo"  src={ require('../images/css.jpg') }  alt="" />
@@ -31,7 +20,6 @@ export function Posts(){
                     <p>Java Script</p>
                 </div>
             </div>
-
             <div className="box">
                 <div className="post-img">
                     <img className="post-logo"  src={ require('../images/react.jpg') }  alt="" />
@@ -48,15 +36,6 @@ export function Posts(){
                     <p>PHP</p>
                 </div>
             </div>
-            <div className="box">
-                <div className="post-img">
-                    <img className="post-logo"  src={ require('../images/mssql.jpg') }  alt="" />
-                </div>
-                <div className="post-detail">
-                    <p>SQL Server</p>
-                </div>
-            </div>
-
             <div className="box">
                 <div className="post-img">
                     <img className="post-logo"  src={ require('../images/mysql.png') }  alt="" />

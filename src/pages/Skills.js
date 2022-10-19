@@ -1,9 +1,13 @@
 import React from "react";
+import {Navbar} from '../components/Navbar';
 
 export function Skills(){
     return(
-        <div>
-            <p>Skills</p>
-        </div>
+		<div className="container">
+			<Navbar />
+			<div className="content">
+				SKILLS
+			</div>
+		</div>
     );
 }

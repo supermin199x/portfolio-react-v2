@@ -11,18 +11,18 @@ import {Error404} from './pages/Error404';
 
 const App = () => {
     return (
-		<BrowserRouter>
-			<Routes>
-				<Route element={<Navbar />} >
+		<div className="app-container">
+			<BrowserRouter>
+				<Routes>
 					<Route index element={<Profile />} />
 					<Route path="react2022" element={<Profile />} />
 					<Route path="Skills" element={<Skills />} />
 					<Route path="Projects" element={<Projects />} />
 					<Route path="Contacts" element={<Contacts />} />
 					<Route path="*" element={<Error404 />} />
-				</Route>
-			</Routes>
-		</BrowserRouter>
+				</Routes>
+			</BrowserRouter>
+		</div>
 	);	
 }
 

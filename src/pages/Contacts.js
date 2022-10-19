@@ -1,9 +1,14 @@
 import React from "react";
+import {Navbar} from '../components/Navbar';
+
 
 export function Contacts(){
     return(
-        <div>
-            <p>Contacts</p>
-        </div>
+		<div className="container">
+			<Navbar />
+			<div className="content">
+				CONTACTS
+			</div>
+		</div>
     );
 }

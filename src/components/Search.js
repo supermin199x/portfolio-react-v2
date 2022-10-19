@@ -3,7 +3,7 @@ import '../css/Search.css'
 
 export function Search(){
     return(
-        <div>
+        <>
             <p className="search">
                 <input 
                     className="input-search" 
@@ -11,6 +11,6 @@ export function Search(){
                     placeholder="Search for posts"
                 />
             </p>
-        </div>
+        </>
     );
 }
