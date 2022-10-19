@@ -1,20 +1,18 @@
 {
   "files": {
-    "main.css": "/react2022/static/css/main.422890ad.css",
-    "main.js": "/react2022/static/js/main.54332e92.js",
+    "main.css": "/react2022/static/css/main.8afab5c1.css",
+    "main.js": "/react2022/static/js/main.54ea78e9.js",
     "static/media/mysql.png": "/react2022/static/media/mysql.074d6b11f99a470b0030.png",
     "static/media/react.jpg": "/react2022/static/media/react.a6b8c61856250c958006.jpg",
     "static/media/php.jpg": "/react2022/static/media/php.d581a3ccad81aa319fbe.jpg",
     "static/media/js.jpg": "/react2022/static/media/js.61fdd03d0878fef799d8.jpg",
     "static/media/css.jpg": "/react2022/static/media/css.9cca02e1759508f57f25.jpg",
-    "static/media/mssql.jpg": "/react2022/static/media/mssql.a27d5011210ad0eeac8b.jpg",
-    "static/media/html.jpg": "/react2022/static/media/html.bc0ce0c316387cf362ba.jpg",
     "index.html": "/react2022/index.html",
-    "main.422890ad.css.map": "/react2022/static/css/main.422890ad.css.map",
-    "main.54332e92.js.map": "/react2022/static/js/main.54332e92.js.map"
+    "main.8afab5c1.css.map": "/react2022/static/css/main.8afab5c1.css.map",
+    "main.54ea78e9.js.map": "/react2022/static/js/main.54ea78e9.js.map"
   },
   "entrypoints": [
-    "static/css/main.422890ad.css",
-    "static/js/main.54332e92.js"
+    "static/css/main.8afab5c1.css",
+    "static/js/main.54ea78e9.js"
   ]
 }
