@@ -11,30 +11,32 @@ export function Navbar(){
     };
 
     return(
-        <div className="navbar">
-            <ul className="nav-link">
-                <li className='nav-item-logo'>
-                    <img className="logo"  src={ require('../images/logo.png') }  alt="" />
-                </li>
-                <li>
-                    <Link className="nav-item active" to="/">Profile</Link>
-                </li>
-                <li>
-                    <Link className="nav-item" to="/Skills">Skills</Link>
-                </li>
-                <li>
-                    <Link className="nav-item" to="/Projects">Projects</Link>
-                </li>
-                <li>
-                    <Link className="nav-item" to="/Contacts">Contacts</Link>
-                </li>
-            </ul>
-            <Outlet />
-            <p onClick={handleClick} id="menu-ham" className="menu-hamberger">
-                <p className="line-hamberger"></p>
-                <p className="line-hamberger"></p>
-                <p className="line-hamberger"></p>
-            </p>
+        <>
+            <div className="navbar">
+                <ul className="nav-link">
+                    <li className='nav-item-logo'>
+                        <img className="logo"  src={ require('../images/logo.png') }  alt="" />
+                    </li>
+                    <li>
+                        <Link className="nav-item active" to="/">Profile</Link>
+                    </li>
+                    <li>
+                        <Link className="nav-item" to="/Skills">Skills</Link>
+                    </li>
+                    <li>
+                        <Link className="nav-item" to="/Projects">Projects</Link>
+                    </li>
+                    <li>
+                        <Link className="nav-item" to="/Contacts">Contacts</Link>
+                    </li>
+                </ul>
+                <Outlet />
+                <p onClick={handleClick} id="menu-ham" className="menu-hamberger">
+                    <p className="line-hamberger"></p>
+                    <p className="line-hamberger"></p>
+                    <p className="line-hamberger"></p>
+                </p>
+            </div>
             {isShown && (
                 <div id="modal-ham" className="hamberger">
                     <ul className="ham-link">
@@ -53,6 +55,6 @@ export function Navbar(){
                     </ul>
                 </div>
             )}
-        </div>
+        </>
     );
 }
