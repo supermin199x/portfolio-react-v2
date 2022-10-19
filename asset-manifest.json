@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/react2022/static/css/main.52363694.css",
-    "main.js": "/react2022/static/js/main.29f2d9df.js",
+    "main.css": "/react2022/static/css/main.422890ad.css",
+    "main.js": "/react2022/static/js/main.0a0453bc.js",
     "static/media/mysql.png": "/react2022/static/media/mysql.074d6b11f99a470b0030.png",
     "static/media/react.jpg": "/react2022/static/media/react.a6b8c61856250c958006.jpg",
     "static/media/php.jpg": "/react2022/static/media/php.d581a3ccad81aa319fbe.jpg",
@@ -10,11 +10,11 @@
     "static/media/mssql.jpg": "/react2022/static/media/mssql.a27d5011210ad0eeac8b.jpg",
     "static/media/html.jpg": "/react2022/static/media/html.bc0ce0c316387cf362ba.jpg",
     "index.html": "/react2022/index.html",
-    "main.52363694.css.map": "/react2022/static/css/main.52363694.css.map",
-    "main.29f2d9df.js.map": "/react2022/static/js/main.29f2d9df.js.map"
+    "main.422890ad.css.map": "/react2022/static/css/main.422890ad.css.map",
+    "main.0a0453bc.js.map": "/react2022/static/js/main.0a0453bc.js.map"
   },
   "entrypoints": [
-    "static/css/main.52363694.css",
-    "static/js/main.29f2d9df.js"
+    "static/css/main.422890ad.css",
+    "static/js/main.0a0453bc.js"
   ]
 }
