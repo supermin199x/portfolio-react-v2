@@ -1,27 +1,67 @@
 .navbar {
-    width: 100%;
-    height: 96px;
-    padding: 20px;
+  width: 100%;
+  height: 96px;
+  padding: 20px;
+}
+.nav-link{
+  height: 100%;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+  list-style: none;
+}
+.nav-item {
+  width: 80px;
+  text-align: center;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight:500;
+  font-size: 18px;
+  color: #374151;
+  text-decoration: none;
+}
+.nav-item-logo {
+  width: 80px;
+  text-align: center;
+  border-radius: 100%;
+  padding: 5px;
+  font-weight:500;
+  font-size: 18px;
+  color: #374151;
+  cursor: pointer;
+}
+.nav-item:hover {
+  cursor: pointer;
+  background-color: #F3F4F6;
+}
+.logo {
+  width: 20px;
+  height: 20px;
+  box-shadow: 0px 0px 5px black;
+}
+.active {
+  background-color: #F3F4F6;
+}
+@media only screen and (max-width: 767px){
+  .navbar {
+    position: relative;
+  }
+  .nav-item {
+    display: none;
   }
   .nav-link{
+    position: relative;
     height: 100%;
     display: flex;
     align-items: center;
+    justify-content: center;
     column-gap: 10px;
     list-style: none;
   }
-  .nav-item {
-    width: 80px;
-    text-align: center;
-    border-radius: 5px;
-    padding: 5px;
-    font-weight:500;
-    font-size: 18px;
-    color: #374151;
-    text-decoration: none;
-  }
   .nav-item-logo {
+    position: absolute;
     width: 80px;
+    height: 100%;
     text-align: center;
     border-radius: 100%;
     padding: 5px;
@@ -30,61 +70,26 @@
     color: #374151;
     cursor: pointer;
   }
-  .nav-item:hover {
-    cursor: pointer;
-    background-color: #F3F4F6;
-  }
   .logo {
-    width: 20px;
-    height: 20px;
-    box-shadow: 0px 0px 5px black;
+    width: 30px;
+    height: 30px;
   }
-  .active {
-    background-color: #F3F4F6;
-  }
-  @media only screen and (max-width: 767px){
-    .navbar {
-      position: relative;
-    }
-    .nav-item {
-      display: none;
-    }
-    .nav-link{
-      height: 100%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      column-gap: 10px;
-      list-style: none;
-    }
-    .nav-item-logo {
-      width: 80px;
-      text-align: center;
-      border-radius: 100%;
-      padding: 5px;
-      font-weight:500;
-      font-size: 18px;
-      color: #374151;
-      cursor: pointer;
-    }
-  }
-
   .hamberger {
     display: flex;
     position: absolute;
-    top: 70px;
+    top: 60px;
     left: 10px;
-    width: 200px;
-    height: fit-content;
+    width: 95%;
+    height: 100%;
     box-shadow: 0px 0px 3px black;
     background-color: white;
   }
   .menu-hamberger {
-    position: absolute;
     display: flex;
+    position: absolute;
     flex-direction: column;
     justify-content: space-between;
-    top: 35px;
+    top: 30px;
     left: 10px;
     width: 20px;
     height: 20px;
@@ -113,4 +118,4 @@
     text-decoration: none;
     color: black;
   }
-  
+}
