@@ -4,7 +4,7 @@
     justify-content: center;
     align-items: center;
     margin-top: 30px;
-    padding: 10px;
+    padding: 50px;
 }
 .post-canvas {
     width: 100%;
@@ -54,7 +54,7 @@
         justify-content: center;
         align-items: center;
         margin-top: 30px;
-        padding: 10px;
+        padding: 40px;
     }
     .post-canvas {
         width: 100%;
@@ -63,10 +63,10 @@
         flex-wrap: wrap;
         justify-content: start;
         row-gap: 30px;
-        column-gap: 2%;
+        column-gap: 4%;
     }
     .box {
-        width: 49%;
+        width: 48%;
         height: 250px;
         display: flex;
         flex-direction: column;
@@ -85,7 +85,7 @@
         justify-content: center;
         align-items: center;
         margin-top: 30px;
-        padding: 10px;
+        padding: 40px;
     }
     .post-canvas {
         width: 100%;
@@ -94,11 +94,10 @@
         flex-wrap: wrap;
         justify-content: center;
         row-gap: 30px;
-        column-gap: 4%;
         padding: 10px;
     }
     .box {
-        width: 48%;
+        width: 100%;
         height: 200px;
         display: flex;
         flex-direction: column;
