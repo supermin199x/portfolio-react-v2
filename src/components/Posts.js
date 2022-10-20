@@ -7,6 +7,14 @@ export function Posts(){
             <div className="post-canvas">
                 <div className="box">
                     <div className="post-img">
+                        <img className="post-logo"  src={ require('../images/html.jpg') }  alt="" />
+                    </div>
+                    <div className="post-detail">
+                        <p>HTML</p>
+                    </div>
+                </div>
+                <div className="box">
+                    <div className="post-img">
                         <img className="post-logo"  src={ require('../images/css.jpg') }  alt="" />
                     </div>
                     <div className="post-detail">
@@ -23,14 +31,6 @@ export function Posts(){
                 </div>
                 <div className="box">
                     <div className="post-img">
-                        <img className="post-logo"  src={ require('../images/react.jpg') }  alt="" />
-                    </div>
-                    <div className="post-detail">
-                        <p>React</p>
-                    </div>
-                </div>
-                <div className="box">
-                    <div className="post-img">
                         <img className="post-logo"  src={ require('../images/php.jpg') }  alt="" />
                     </div>
                     <div className="post-detail">
@@ -39,10 +39,10 @@ export function Posts(){
                 </div>
                 <div className="box">
                     <div className="post-img">
-                        <img className="post-logo"  src={ require('../images/mysql.png') }  alt="" />
+                        <img className="post-logo"  src={ require('../images/mssql.jpg') }  alt="" />
                     </div>
                     <div className="post-detail">
-                        <p>My SQL</p>
+                        <p>MS SQL</p>
                     </div>
                 </div>
             </div>
