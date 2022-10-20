@@ -8,15 +8,15 @@ import {Posts} from '../components/Posts';
 
 export function Profile() {
     return (
-		<div className="container">
-			<div className="show-navbar">
+		<div className="profile-container">
+			<div className="profile-show-navbar">
 				<Navbar />
 			</div>
-			<div className="show-content">
+			<div className="profile-show-content">
 				<Title />
 				<Search />
 			</div>
-			<div className="show-post">
+			<div className="profile-show-post">
 				<Posts />
 			</div>
 		</div>

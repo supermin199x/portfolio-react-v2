@@ -9,16 +9,16 @@
       "Ubuntu", "Cantarell", "Fira Sans", 
       "Droid Sans", "Helvetica Neue", sans-serif;
   }
-  .profile-container {
+  .skills-container {
     width: 100%;
     height: 100%;
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
   }
-  .profile-content {
+  .skills-content {
     height: 220px;
   }
-  .profile-ost {
+  .skills-post {
     height: fit-content;
   }

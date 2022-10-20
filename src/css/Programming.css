@@ -1,0 +1,98 @@
+.programming-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.programming-canvas {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    row-gap: 50px;
+    column-gap: 2%;
+}
+.programming-box {
+    width: 49%;
+    height: fit-content;
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    padding: 30px;
+    border-radius: 3px;
+}
+.programming-title {
+    display: flex;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 20px;
+    text-decoration: underline;
+    background-color: rgb(11, 72, 141);
+    padding: 10px;
+    width: 100%;
+    height: 50px;
+    align-items: center;
+}
+label {
+    text-decoration: underline;
+    margin-bottom: 50px;
+    font-size: 16px;
+}
+.programming-footer {
+    width: 100%;
+    height: fit-content;
+    background-color: white;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 3px;
+}
+.programming-text {
+    padding: 10px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+
+}
+@media only screen and (max-width: 767px){
+    .programming-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+    }
+    .programming-canvas {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+        row-gap: 30px;
+        column-gap: 2%;
+    }
+    .programming-box {
+        width: 100%;
+        height: fit-content;
+        background-color: white;
+        box-shadow: 0px 0px 5px black;
+        padding: 30px;
+        border-radius: 3px;
+    }
+    .programming-title {
+        display: flex;
+        font-weight: 700;
+        color: white;
+        margin-bottom: 20px;
+        text-decoration: underline;
+        background-color: rgb(11, 72, 141);
+        padding: 10px;
+        width: 100%;
+        height: 50px;
+        align-items: center;
+    }
+    label {
+        text-decoration: underline;
+        margin-bottom: 50px;
+        font-size: 16px;
+    }
+}
