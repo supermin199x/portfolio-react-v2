@@ -1,0 +1,24 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    font-family: -apple-system, BlinkMacSystemFont, 
+      "Segoe UI", "Roboto", "Oxygen", 
+      "Ubuntu", "Cantarell", "Fira Sans", 
+      "Droid Sans", "Helvetica Neue", sans-serif;
+  }
+  .Projects-container {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+  }
+  .Projects-content {
+    height: 220px;
+  }
+  .Projects-post {
+    height: fit-content;
+  }
