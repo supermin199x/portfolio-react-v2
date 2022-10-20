@@ -15,7 +15,6 @@
     display: flex;
     flex-direction: column;
     overflow-x: hidden;
-    padding: 10px;
   }
   .content {
     height: 220px;

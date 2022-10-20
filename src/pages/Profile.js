@@ -9,12 +9,14 @@ import {Posts} from '../components/Posts';
 export function Profile() {
     return (
 		<div className="container">
-			<Navbar />
-			<div className="content">
+			<div className="show-navbar">
+				<Navbar />
+			</div>
+			<div className="show-content">
 				<Title />
 				<Search />
 			</div>
-			<div className="Post">
+			<div className="show-post">
 				<Posts />
 			</div>
 		</div>
