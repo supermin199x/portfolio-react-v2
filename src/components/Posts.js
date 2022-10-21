@@ -7,7 +7,7 @@ export function Posts(){
             <div className="post-canvas">
                 <div className="box">
                     <div className="post-img">
-                        <img className="post-logo"  src={ require('../images/html.jpg') }  alt="" />
+                        <img className="post-logo"  src={ require('../images/html.jpg' ) }  alt="" />
                     </div>
                     <div className="post-detail">
                         <p>HTML</p>
@@ -15,7 +15,7 @@ export function Posts(){
                 </div>
                 <div className="box">
                     <div className="post-img">
-                        <img className="post-logo"  src={ require('../images/css.jpg') }  alt="" />
+                        <img className="post-logo"  src={ require('../images/css.png' ) }  alt="" />
                     </div>
                     <div className="post-detail">
                         <p>CSS</p>
@@ -23,7 +23,7 @@ export function Posts(){
                 </div>
                 <div className="box">
                     <div className="post-img">
-                        <img className="post-logo"  src={ require('../images/js.jpg') }  alt="" />
+                        <img className="post-logo"  src={ require('../images/js.jpeg' ) }  alt="" />
                     </div>
                     <div className="post-detail">
                         <p>Java Script</p>
@@ -31,7 +31,7 @@ export function Posts(){
                 </div>
                 <div className="box">
                     <div className="post-img">
-                        <img className="post-logo"  src={ require('../images/php.jpg') }  alt="" />
+                        <img className="post-logo"  src={ require('../images/php.jpg' ) }  alt="" />
                     </div>
                     <div className="post-detail">
                         <p>PHP</p>
@@ -39,7 +39,7 @@ export function Posts(){
                 </div>
                 <div className="box">
                     <div className="post-img">
-                        <img className="post-logo"  src={ require('../images/mssql.jpg') }  alt="" />
+                        <img className="post-logo"  src={ require('../images/mssql.png' ) }  alt="" />
                     </div>
                     <div className="post-detail">
                         <p>MS SQL</p>

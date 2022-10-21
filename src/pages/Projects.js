@@ -2,7 +2,7 @@ import React from "react";
 import '../css/Projects.css';
 import {Navbar} from '../components/Navbar';
 import {Title} from '../components/Title';
-import {Software} from '../components/Software';
+import {ProjectDetail} from '../components/ProjectDetail';
 
 export function Projects(){
     return(
@@ -14,7 +14,7 @@ export function Projects(){
 				<Title />
 			</div>
 			<div className="Projects-show-post">
-				<Software />
+				<ProjectDetail />
 			</div>
 		</div>
     );

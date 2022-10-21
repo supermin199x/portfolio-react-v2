@@ -38,12 +38,6 @@ export function SkillDetail() {
                             <li>Fix Problem Internet</li>
                         </ul>
                     </div>
-                    <div className="skilldetail-footer">
-                        <p className="skilldetail-title">Lorem</p>
-                        <div className="skilldetail-text">
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, obcaecati quibusdam reprehenderit fuga odit eveniet sed qui vel rem quae maxime similique natus exercitationem! Saepe iusto eos enim ea accusantium!
-                        </div>
-                    </div>
                 </div>
             </div>
         </div>

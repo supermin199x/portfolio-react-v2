@@ -1,40 +1,74 @@
 .contactDetail-container {
+    width: 100vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
-    align-items: center;
+    row-gap: 50px;
     padding: 50px;
 }
 .contactDetail-canvas {
     width: 100%;
+    height: 100%;
     display: flex;
     flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: start;
-    row-gap:20px;
-    column-gap: 2%;
+    column-gap:2%;
+    row-gap: 2%;
 }
 .contactDetail-box {
-    width: 49%;
-    height: 120px;
+    position: relative;
+    width: 23.5%;
+    height: 100%;
     display: flex;
     flex-direction: column;
-    row-gap: 10px;
+    justify-content: center;
+    padding: 30px;
     background-color: white;
     box-shadow: 0px 0px 3px black;
     border-radius: 3px;
-    padding: 30px;
+    cursor: pointer;
 }
-.contactDetail-title {
-    font-size: 20px;
-    font-weight: 700;
-    text-decoration: underline;
-    list-style: none;
-}
+.contactDetail-box:hover {
+    box-shadow: 0px 0px 5px black;
+    background-color: rgb(4, 58, 139);
+    color: white;
+} 
 .contactDetail-address {
     list-style: none;
-    margin-bottom: 20px;
-    font-size: 14px;
+}
+.contactDetail-img {
+    width: 50px;
+    height: 50px;
+}
+.contactDetail-title {
+    font-size: 24px;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+.contactDetail-item {
+    font-size: 12px;
+    margin-top: 10px;
+}
+.ribbon {
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    background-color: black;
+    bottom: 0;
+    right: 0;
+}
+.contactDetail-show-result {
+    width: 100%;
+    height: 200px;
+    padding: 5px;
+}
+.contactDetail-show-result-input {
+    width: 100%;
+    height: 100%;
+    border-radius: 3px;
+    border: solid 5px black;
+    padding: 30px;
+    font-size: 70px;
+    font-weight: 700;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 1023px){
@@ -50,31 +84,48 @@
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
-        justify-content: start;
-        row-gap:20px;
-        column-gap: 2%;
+        column-gap:2%;
+        row-gap: 20px;
     }
     .contactDetail-box {
+        position: relative;
         width: 49%;
         height: 120px;
         display: flex;
         flex-direction: column;
-        row-gap: 10px;
+        justify-content: center;
+        padding: 30px;
         background-color: white;
         box-shadow: 0px 0px 3px black;
         border-radius: 3px;
-        padding: 30px;
-    }
-    .contactDetail-title {
-        font-size: 20px;
-        font-weight: 700;
-        text-decoration: underline;
-        list-style: none;
     }
     .contactDetail-address {
         list-style: none;
-        margin-bottom: 20px;
-        font-size: 14px;
+    }
+    .contactDetail-img {
+        width: 50px;
+        height: 50px;
+    }
+    .contactDetail-title {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+    .contactDetail-item {
+        font-size: 18px;
+        margin-left: 20px;
+        margin-top: 10px;
+    }
+    .ribbon {
+        position: absolute;
+        width: 100%;
+        height: 10px;
+        background-color: black;
+        bottom: 0;
+        right: 0;
+    }  
+    .contactDetail-show-result {
+        display: none;
     }
 }
 @media only screen and (max-width: 767px){
@@ -88,31 +139,45 @@
     .contactDetail-canvas {
         width: 100%;
         display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: start;
+        flex-direction: column;
         row-gap:20px;
     }
     .contactDetail-box {
+        position: relative;
         width: 100%;
         height: 120px;
         display: flex;
         flex-direction: column;
-        row-gap: 10px;
+        justify-content: center;
+        padding: 30px;
         background-color: white;
         box-shadow: 0px 0px 3px black;
         border-radius: 3px;
-        padding: 30px;
-    }
-    .contactDetail-title {
-        font-size: 20px;
-        font-weight: 700;
-        text-decoration: underline;
-        list-style: none;
     }
     .contactDetail-address {
         list-style: none;
-        margin-bottom: 20px;
-        font-size: 18px;
     }
+    .contactDetail-img {
+        width: 50px;
+        height: 50px;
+    }
+    .contactDetail-title {
+        font-size: 24px;
+        font-weight: 700;
+        margin-bottom: 5px;
+    }
+    .contactDetail-item {
+        font-size: 18px;
+        margin-left: 10px;
+        margin-top: 10px;
+    }
+    .ribbon {
+        position: absolute;
+        width: 10px;
+        height: 100%;
+        background-color: black;
+        top: 0;
+        right: 0;
+    }
+    .contactDetail-show-result {display: none;}
 }
