@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.css": "/react2022/static/css/main.c4997ac8.css",
-    "main.js": "/react2022/static/js/main.e36516ec.js",
+    "main.css": "/react2022/static/css/main.44199c20.css",
+    "main.js": "/react2022/static/js/main.072a75a5.js",
+    "static/media/html.jpg": "/react2022/static/media/html.38ce4b0a0f54a919fb04.jpg",
     "static/media/php.jpg": "/react2022/static/media/php.d581a3ccad81aa319fbe.jpg",
-    "static/media/js.jpg": "/react2022/static/media/js.61fdd03d0878fef799d8.jpg",
-    "static/media/css.jpg": "/react2022/static/media/css.9cca02e1759508f57f25.jpg",
-    "static/media/mssql.jpg": "/react2022/static/media/mssql.a27d5011210ad0eeac8b.jpg",
-    "static/media/html.jpg": "/react2022/static/media/html.bc0ce0c316387cf362ba.jpg",
+    "static/media/css.png": "/react2022/static/media/css.9acc7bc99bfff67081dc.png",
+    "static/media/js.jpeg": "/react2022/static/media/js.7c0703e93a019334049a.jpeg",
+    "static/media/mssql.png": "/react2022/static/media/mssql.24a31f7f148c88fb72dd.png",
     "index.html": "/react2022/index.html",
-    "main.c4997ac8.css.map": "/react2022/static/css/main.c4997ac8.css.map",
-    "main.e36516ec.js.map": "/react2022/static/js/main.e36516ec.js.map"
+    "main.44199c20.css.map": "/react2022/static/css/main.44199c20.css.map",
+    "main.072a75a5.js.map": "/react2022/static/js/main.072a75a5.js.map"
   },
   "entrypoints": [
-    "static/css/main.c4997ac8.css",
-    "static/js/main.e36516ec.js"
+    "static/css/main.44199c20.css",
+    "static/js/main.072a75a5.js"
   ]
 }
