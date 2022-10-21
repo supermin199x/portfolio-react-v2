@@ -27,7 +27,7 @@ export function Navbar(){
                         <Link className="nav-item" to="/Projects">Projects</Link>
                     </li>
                     <li>
-                        <Link className="nav-item" to="/Contacts">Contacts</Link>
+                        <Link className="nav-item" to="/Contact">Contact</Link>
                     </li>
                 </ul>
                 <Outlet />
@@ -50,7 +50,7 @@ export function Navbar(){
                             <Link className="ham-item" to="/Projects">Projects</Link>
                         </li>
                         <li onClick={handleClick}>
-                            <Link className="ham-item" to="/Contacts">Contacts</Link>
+                            <Link className="ham-item" to="/Contact">Contact</Link>
                         </li>
                     </ul>
                 </div>

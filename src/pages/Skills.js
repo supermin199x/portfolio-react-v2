@@ -2,7 +2,7 @@ import React from "react";
 import '../css/Skills.css';
 import {Navbar} from '../components/Navbar';
 import {Title} from '../components/Title';
-import {Programming} from '../components/Programming';
+import {SkillDetail} from '../components/SkillDetail';
 
 
 export function Skills(){
@@ -15,7 +15,7 @@ export function Skills(){
 				<Title />
 			</div>
 			<div className="skills-show-post">
-				<Programming />
+				<SkillDetail />
 			</div>
 		</div>
     );

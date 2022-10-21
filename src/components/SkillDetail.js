@@ -1,13 +1,13 @@
 import React from "react";
-import '../css/Programming.css';
+import '../css/SkillDetail.css';
 
-export function Programming() {
+export function SkillDetail() {
     return(
         <div>
-             <div className="programming-container">
-                <div className="programming-canvas">
-                    <div className="programming-box">
-                        <p className="programming-title">Programming</p>
+             <div className="skilldetail-container">
+                <div className="skilldetail-canvas">
+                    <div className="skilldetail-box">
+                        <p className="skilldetail-title">Programming</p>
                         <label htmlFor="">Front End</label>
                         <ul>
                             <li>HTML</li>
@@ -29,8 +29,8 @@ export function Programming() {
                             <li>Node Red API</li>
                         </ul>
                     </div>
-                    <div className="programming-box">
-                        <p className="programming-title">It Support</p>
+                    <div className="skilldetail-box">
+                        <p className="skilldetail-title">It Support</p>
                         <ul>
                             <li>Windows Server</li>
                             <li>Domain Controler, AD</li>
@@ -38,9 +38,9 @@ export function Programming() {
                             <li>Fix Problem Internet</li>
                         </ul>
                     </div>
-                    <div className="programming-footer">
-                        <p className="programming-title">Lorem</p>
-                        <div className="programming-text">
+                    <div className="skilldetail-footer">
+                        <p className="skilldetail-title">Lorem</p>
+                        <div className="skilldetail-text">
                             Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, obcaecati quibusdam reprehenderit fuga odit eveniet sed qui vel rem quae maxime similique natus exercitationem! Saepe iusto eos enim ea accusantium!
                         </div>
                     </div>

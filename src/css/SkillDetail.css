@@ -1,11 +1,11 @@
-.programming-container {
+.skilldetail-container {
     display: flex;
     flex-direction: row;
     justify-content: center;
     align-items: center;
     padding: 50px;
 }
-.programming-canvas {
+.skilldetail-canvas {
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -14,7 +14,7 @@
     row-gap: 50px;
     column-gap: 2%;
 }
-.programming-box {
+.skilldetail-box {
     width: 49%;
     height: fit-content;
     background-color: white;
@@ -22,7 +22,7 @@
     padding: 30px;
     border-radius: 3px;
 }
-.programming-title {
+.skilldetail-title {
     display: flex;
     font-weight: 700;
     color: white;
@@ -39,14 +39,14 @@ label {
     margin-bottom: 50px;
     font-size: 16px;
 }
-.programming-footer {
+.skilldetail-footer {
     width: 100%;
     height: fit-content;
     background-color: white;
     box-shadow: 0px 0px 5px black;
     border-radius: 3px;
 }
-.programming-text {
+.skilldetail-text {
     padding: 10px;
 }
 
@@ -54,14 +54,14 @@ label {
 
 }
 @media only screen and (max-width: 767px){
-    .programming-container {
+    .skilldetail-container {
         display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
         padding: 50px;
     }
-    .programming-canvas {
+    .skilldetail-canvas {
         width: 100%;
         display: flex;
         flex-direction: row;
@@ -70,7 +70,7 @@ label {
         row-gap: 30px;
         column-gap: 2%;
     }
-    .programming-box {
+    .skilldetail-box {
         width: 100%;
         height: fit-content;
         background-color: white;
@@ -78,7 +78,7 @@ label {
         padding: 30px;
         border-radius: 3px;
     }
-    .programming-title {
+    .skilldetail-title {
         display: flex;
         font-weight: 700;
         color: white;

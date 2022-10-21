@@ -1,11 +1,10 @@
 import React from "react";
 import './App.css';
 import {BrowserRouter, Routes, Route} from 'react-router-dom';
-import {Navbar} from './components/Navbar';
 import {Profile} from './pages/Profile';
 import {Skills} from './pages/Skills';
 import {Projects} from './pages/Projects';
-import {Contacts} from './pages/Contacts';
+import {Contact} from './pages/Contact';
 import {Error404} from './pages/Error404';
 
 
@@ -18,7 +17,7 @@ const App = () => {
 					<Route path="react2022" element={<Profile />} />
 					<Route path="Skills" element={<Skills />} />
 					<Route path="Projects" element={<Projects />} />
-					<Route path="Contacts" element={<Contacts />} />
+					<Route path="Contact" element={<Contact />} />
 					<Route path="*" element={<Error404 />} />
 				</Routes>
 			</BrowserRouter>

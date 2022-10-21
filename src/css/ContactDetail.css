@@ -1,0 +1,118 @@
+.contactDetail-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+.contactDetail-canvas {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: start;
+    row-gap:20px;
+    column-gap: 2%;
+}
+.contactDetail-box {
+    width: 49%;
+    height: 120px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 10px;
+    background-color: white;
+    box-shadow: 0px 0px 3px black;
+    border-radius: 3px;
+    padding: 30px;
+}
+.contactDetail-title {
+    font-size: 20px;
+    font-weight: 700;
+    text-decoration: underline;
+    list-style: none;
+}
+.contactDetail-address {
+    list-style: none;
+    margin-bottom: 20px;
+    font-size: 14px;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1023px){
+    .contactDetail-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+    }
+    .contactDetail-canvas {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+        row-gap:20px;
+        column-gap: 2%;
+    }
+    .contactDetail-box {
+        width: 49%;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        background-color: white;
+        box-shadow: 0px 0px 3px black;
+        border-radius: 3px;
+        padding: 30px;
+    }
+    .contactDetail-title {
+        font-size: 20px;
+        font-weight: 700;
+        text-decoration: underline;
+        list-style: none;
+    }
+    .contactDetail-address {
+        list-style: none;
+        margin-bottom: 20px;
+        font-size: 14px;
+    }
+}
+@media only screen and (max-width: 767px){
+    .contactDetail-container {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 50px;
+    }
+    .contactDetail-canvas {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: start;
+        row-gap:20px;
+    }
+    .contactDetail-box {
+        width: 100%;
+        height: 120px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        background-color: white;
+        box-shadow: 0px 0px 3px black;
+        border-radius: 3px;
+        padding: 30px;
+    }
+    .contactDetail-title {
+        font-size: 20px;
+        font-weight: 700;
+        text-decoration: underline;
+        list-style: none;
+    }
+    .contactDetail-address {
+        list-style: none;
+        margin-bottom: 20px;
+        font-size: 18px;
+    }
+}
