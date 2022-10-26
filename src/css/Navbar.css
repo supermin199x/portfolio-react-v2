@@ -68,6 +68,7 @@ border-radius: 5px;
 		border: solid 2px black;
 	}
 	.modal-ham {
+		z-index: 99;
 		display: flex;
 		position: absolute;
 		top: 60px;
