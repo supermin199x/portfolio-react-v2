@@ -20,7 +20,7 @@
     height: 250px;
     display: flex;
     flex-direction: column;
-    box-shadow: 0px 0px 2px black;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;;
     border-radius: 3px;
 }
 .box:hover {
@@ -70,7 +70,7 @@
         height: 250px;
         display: flex;
         flex-direction: column;
-        box-shadow: 0px 0px 2px black;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;;
         border-radius: 3px;
     }
     .box:hover {
@@ -101,7 +101,7 @@
         height: 200px;
         display: flex;
         flex-direction: column;
-        box-shadow: 0px 0px 2px black;
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;;
         border-radius: 3px;
         background-color: white;
     }

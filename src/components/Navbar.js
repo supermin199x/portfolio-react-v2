@@ -18,7 +18,7 @@ export function Navbar(){
                         <img className="logo"  src={ require('../images/logo.png') }  alt="" />
                     </li>
                     <li>
-                        <Link className="nav-item" to="/">Profile</Link>
+                        <Link className="nav-item {}" to="/">Profile</Link>
                     </li>
                     <li>
                         <Link className="nav-item" to="/Skills">Skills</Link>
@@ -41,7 +41,7 @@ export function Navbar(){
                 <div id="modal-ham" className="modal-ham">
                     <ul className="ham-link" onMouseLeave={handleClick}>
                         <li onClick={handleClick}>
-                            <Link className="ham-item active" to="/">Profile</Link>
+                            <Link className="ham-item" to="/">Profile</Link>
                         </li>
                         <li onClick={handleClick}>
                             <Link className="ham-item" to="/Skills">Skills</Link>

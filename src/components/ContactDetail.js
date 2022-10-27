@@ -1,5 +1,7 @@
 import React, {useState} from "react";
 import '../css/ContactDetail.css';
+import Typed from "react-typed";
+
 
 export function ContactDetail() {
 
@@ -43,7 +45,14 @@ export function ContactDetail() {
                     </div>
                 </div>
                 <div className="contactDetail-show-result">
-                    <input className="contactDetail-show-result-input" type="text" value={message} />
+                    <Typed
+                        strings={[message]}
+                        typeSpeed={150}
+                        backSpeed={100}
+                        loop
+                    >
+                        <input className="contactDetail-show-result-input" type="text" />
+                    </Typed>
                 </div>
             </div>
         </div>
