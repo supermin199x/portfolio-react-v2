@@ -7,7 +7,7 @@ export function SkillDetail() {
              <div className="skilldetail-container">
                 <div className="skilldetail-canvas">
                     <div className="skilldetail-box">
-                        <p className="skilldetail-title">Programming</p>
+                        <p className="skilldetail-title">Programming Skill</p>
                         <label htmlFor="">Front End</label>
                         <ul>
                             <li>HTML</li>
@@ -30,7 +30,7 @@ export function SkillDetail() {
                         </ul>
                     </div>
                     <div className="skilldetail-box">
-                        <p className="skilldetail-title">It Support</p>
+                        <p className="skilldetail-title">IT Support Skill</p>
                         <ul>
                             <li>Windows Server</li>
                             <li>Domain Controler, AD</li>
