@@ -4,7 +4,7 @@
     flex-direction: column;
     justify-content: center;
     row-gap: 50px;
-    padding: 50px;
+    padding: 20px 50px;
 }
 .contactDetail-canvas {
     width: 100%;

@@ -10,8 +10,8 @@ export function Projects(){
 			<div className="Projects-show-navbar">
 				<Navbar />
 			</div>
-			<div className="Projects-show-content">
-				<Title />
+			<div className="Projects-title">
+				Projects
 			</div>
 			<div className="Projects-show-post">
 				<ProjectDetail />

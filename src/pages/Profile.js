@@ -4,6 +4,7 @@ import {Navbar} from '../components/Navbar';
 import {Title} from '../components/Title';
 import {Search} from '../components/Search';
 import {Posts} from '../components/Posts';
+import {ProfileDetail} from '../components/ProfileDetail';
 
 
 export function Profile() {
@@ -13,11 +14,10 @@ export function Profile() {
 				<Navbar />
 			</div>
 			<div className="profile-show-content">
-				<Title />
-				<Search />
+				
 			</div>
 			<div className="profile-show-post">
-				<Posts />
+				<ProfileDetail />
 			</div>
 		</div>
 	);	

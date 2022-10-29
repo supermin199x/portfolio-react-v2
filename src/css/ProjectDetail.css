@@ -3,7 +3,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 20px 50px;
 }
 .ProjectDetail-canvas {
     width: 100%;
