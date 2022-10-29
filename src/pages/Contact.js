@@ -11,8 +11,8 @@ export function Contact(){
 			<div className="contact-show-navbar">
 				<Navbar />
 			</div>
-			<div className="contact-title">
-				Contact
+			<div className="contact-show-content">
+				<Title />
 			</div>
 			<div className="contact-show-post">
 				<ContactDetail />

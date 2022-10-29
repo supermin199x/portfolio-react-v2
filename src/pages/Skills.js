@@ -12,9 +12,7 @@ export function Skills(){
 				<Navbar />
 			</div>
 			<div className="skills-show-content">
-				<div className="skill-title">
-					Skills
-				</div>
+				<Title />
 			</div>
 			<div className="skills-show-post">
 				<SkillDetail />

@@ -7,6 +7,9 @@ export function ProjectDetail() {
         <div>
              <div className="ProjectDetail-container">
                 <div className="ProjectDetail-canvas">
+                    <p className="ProjectDetail-title">
+                        My Project
+                    </p>
                     <div className="ProjectDetail-box">
                         <img className="ProjectDetail-img" src={ require('../images/css.png' ) } alt="" />
                         <div className="ProjectDetail-content">
